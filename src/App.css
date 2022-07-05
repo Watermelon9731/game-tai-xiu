@@ -1,0 +1,15 @@
+.dice-game {
+    background-image: url(../public/img/bgGame.png);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.dice-game .layer {
+    background-color: rgba(144, 159, 233, 0.25);
+    width: calc(100vw);
+    height: calc(100vh);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
